@@ -75,7 +75,7 @@ export const App = () => {
     }
 
     onAdd({
-      id: 0,
+      id: getTodoId(todos || []),
       title,
       completed: false,
       userId,
